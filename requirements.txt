@@ -1,5 +1,0 @@
-tensorflow==2.13
-scikit-learn
-opencv-python
-matplotlib
-pandas

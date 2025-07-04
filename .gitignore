@@ -1,3 +1,4 @@
-/.venv
-/data_set
-/tf-gpu-env
+/chestx_det10_yolo
+/train_data
+/test_data
+/runs
