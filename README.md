@@ -72,7 +72,7 @@ O modelo final treinado `y8s_finetune15` pode ser descarregado aqui:
 
 ## 📑 Relatório
 
-O relatório completo encontra-se entregue via Moodle com o nome:  
+O relatório completo encontra-se:  
 `Relatorio_APVC_TomasVicente_125604_2025.pdf`
 
 ---
