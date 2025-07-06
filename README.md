@@ -13,7 +13,10 @@
 
 Desenvolver um sistema inteligente baseado na arquitetura YOLOv8-s para deteção automática de 10 patologias torácicas (ex: pneumonia, nódulos, alargamento do coração) em radiografias de tórax.
 
-O sistema foi treinado com mais de 3 000 imagens do dataset ChestX-Det10 e avaliado com mais de 500 imagens inéditas.
+O sistema foi treinado com mais de 3 000 imagens do dataset ChestX-Det10 e avaliado com mais de 500 imagens.
+
+![image](https://github.com/user-attachments/assets/06d63c38-6ae3-4c3c-9fa3-b9c2ac26bc8e)
+
 
 ---
 
