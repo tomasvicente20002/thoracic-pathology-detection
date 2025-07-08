@@ -1,86 +1,84 @@
-# Deteção Automática de Patologias Torácicas em Radiografias com YOLOv8
+# Automatic Detection of Thoracic Pathologies in Chest X-rays with YOLOv8
 
-**Autor:** Tomás Vicente  
-**Número de aluno:** 125604  
-**Curso:** Mestrado em Ciência de Dados  
-**Unidade Curricular:** Aprendizagem Profunda para Visão por Computador  
-**Docente:** Professor Tomás Brandão  
-**Data:** Julho 2025
+**Author:** Tomás Vicente  
+**Student Number:** 125604  
+**Course:** Master’s in Data Science  
+**Course Unit:** Deep Learning for Computer Vision  
+**Professor:** Professor Tomás Brandão  
+**Date:** July 2025
 
 ---
 
-## 📌 Objetivo
+## 📌 Objective
 
-Desenvolver um sistema inteligente baseado na arquitetura YOLOv8-s para deteção automática de 10 patologias torácicas (ex: pneumonia, nódulos, alargamento do coração) em radiografias de tórax.
+To develop an intelligent system based on the YOLOv8-s architecture for the automatic detection of 10 thoracic pathologies (e.g., pneumonia, nodules, cardiomegaly) in chest X-rays.
 
-O sistema foi treinado com mais de 3 000 imagens do dataset ChestX-Det10 e avaliado com mais de 500 imagens.
+The system was trained with over 3,000 images from the ChestX-Det10 dataset and evaluated with more than 500 images.
 
 ![image](https://github.com/user-attachments/assets/06d63c38-6ae3-4c3c-9fa3-b9c2ac26bc8e)
 
+---
+
+## 📂 Notebook Structure
+
+| Notebook | Description |
+|----------|-------------|
+| `1_analise_dataset.ipynb` | Exploratory data analysis and class statistics. |
+| `2_conversao_yolo.ipynb` | Conversion of annotations to YOLO format. |
+| `3_treino.ipynb` | Training the YOLOv8-s model with fine-tuning and optimization strategies. |
+| `4_eval.ipynb` | Final model evaluation with standard metrics (mAP, precision, recall). |
+| `5_detecao.ipynb` | Application of the trained model to new X-rays for automatic detection. |
 
 ---
 
-## 📂 Estrutura dos Notebooks
+## 📊 Results
 
-| Notebook | Descrição |
-|----------|-----------|
-| `1_analise_dataset.ipynb` | Análise exploratória do dataset e estatísticas de classes. |
-| `2_conversao_yolo.ipynb` | Conversão das anotações para o formato YOLO. |
-| `3_treino.ipynb` | Treino do modelo YOLOv8-s com fine-tuning e estratégias de otimização. |
-| `4_eval.ipynb` | Avaliação do modelo final com métricas padrão (mAP, precisão, sensibilidade). |
-| `5_detecao.ipynb` | Aplicação do modelo treinado a novas radiografias para deteção automática. |
-
----
-
-## 📊 Resultados
-
-- **Modelo final:** `y8s_finetune15`
-- **Desempenho no conjunto de teste (542 imagens):**
+- **Final model:** `y8s_finetune15`
+- **Performance on test set (542 images):**
   - `mAP_50:95 = 0.224`
   - `mAP_50 = 0.442`
-  - `Sensibilidade = 0.446`
-  - `Precisão = 0.562`
-- **Tempo de inferência por imagem:** ~38ms
-- **Tamanho do modelo:** ~25MB
+  - `Recall = 0.446`
+  - `Precision = 0.562`
+- **Inference time per image:** ~38ms
+- **Model size:** ~25MB
 
-O modelo foi selecionado por maximizar a sensibilidade — um critério crítico em contexto clínico, onde falsos negativos são indesejáveis.
+The model was selected for maximizing recall—a critical criterion in clinical contexts where false negatives are undesirable.
 
 ---
 
-## 🧪 Tecnologias e Bibliotecas
+## 🧪 Technologies and Libraries
 
 - **Python 3.10**
 - **YOLOv8 - Ultralytics (PyTorch 2.2)**
 - **Google Colab**
-- Bibliotecas auxiliares: `numpy`, `pandas`, `opencv`, `matplotlib`, `seaborn`
+- Supporting libraries: `numpy`, `pandas`, `opencv`, `matplotlib`, `seaborn`
 
 ---
-
 
 ## 📁 Dataset
 
-O dataset utilizado neste projeto é o **ChestX-Det10**, disponível publicamente no Kaggle:
+The dataset used in this project is **ChestX-Det10**, publicly available on Kaggle:
 
-🔗 [ChestX-Det10 Dataset – Kaggle](https://www.kaggle.com/datasets/mathurinache/chestxdetdataset)
-
----
-
-## 📦 Modelo Treinado
-
-O modelo final treinado `y8s_finetune15` pode ser descarregado aqui:
-
-🔗 [Download via Google Drive](https://drive.google.com/drive/folders/10keI22m3eVd9my57UjH3VFRidfMl_Lwz?usp=sharing)
+[ChestX-Det10 Dataset – Kaggle](https://www.kaggle.com/datasets/mathurinache/chestxdetdataset)
 
 ---
 
-## 📑 Relatório
+## 📦 Trained Model
 
-O relatório completo encontra-se:  
+The final trained model `y8s_finetune15` can be downloaded here:
+
+[Download via Google Drive](https://drive.google.com/drive/folders/10keI22m3eVd9my57UjH3VFRidfMl_Lwz?usp=sharing)
+
+---
+
+## 📑 Report
+
+The complete report is available at:  
 `Relatorio_APVC_TomasVicente_125604_2025.pdf`
 
 ---
 
-## 📬 Contacto
+## 📬 Contact
 
-Em caso de dúvidas ou sugestões:  
+For questions or suggestions:  
 📧 tomas.vicente.tech@outlook.com
