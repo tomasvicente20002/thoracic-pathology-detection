@@ -67,7 +67,7 @@ The dataset used in this project is **ChestX-Det10**, publicly available on Kagg
 
 The final trained model `y8s_finetune15` can be downloaded here:
 
-[Download via Google Drive](https://drive.google.com/drive/folders/10keI22m3eVd9my57UjH3VFRidfMl_Lwz?usp=sharing)
+https://drive.google.com/drive/folders/10keI22m3eVd9my57UjH3VFRidfMl_Lwz?usp=sharing
 
 ---
 
